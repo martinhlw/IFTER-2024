@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid #ccc; /* Garis tipis di pinggirannya */
+}
+
+.left {
+    background-color: #b3b3b3;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px 0 0 10px;
+    margin-right: 20px; /* Jarak antara latar abu-abu dan putih */
+}
+
+.left h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.left p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+.right {
+    padding: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2 {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.right .toggle-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.toggle-buttons button.active {
+    background-color: #666;
+    color: #fff;
+}
+
+.toggle-buttons .inactive {
+    background-color: #ccc;
+    color: #666;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00e0ff;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #d3d3d3;
+}
+
+.form-group .password-icon {
+    position: relative;
+}
+
+.form-group .password-icon i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #d3d3d3;
+}
+
+.register-button {
+    background-color: #ccc;
+    color: #666;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+}
+

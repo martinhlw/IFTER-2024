@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid #ccc; /* Garis tipis di pinggirannya */
+}
+
+.left {
+    background-color: #b3b3b3;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px 0 0 10px;
+    margin-right: 20px; /* Jarak antara latar abu-abu dan putih */
+}
+
+.left h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.left p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+.right {
+    padding: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2 {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.right .toggle-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.right .toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.right .toggle-buttons .active {
+    background-color: #666;
+    color: #fff;
+}
+
+.right .toggle-buttons .inactive {
+    background-color: #ccc;
+    color: #666;
+}
+
+.right p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.right label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+.right input[type="text"],
+.right input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00bcd4;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.right .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.right .remember-forgot input {
+    margin-right: 5px;
+}
+
+.right .login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ccc;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+}
